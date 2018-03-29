@@ -1,0 +1,2 @@
+# Real-time-Node-socket
+A Node.JS project that implements a server, that creates a real-time socket handler that lists down and monitors all the clients that are connected to the server. Once a client connects, it is provided with a unique socket ID and on disconnecting, either manually, or forcefully (in case of power cut), the handler automatically identifies this, and stops pushing data into the rogue client and de-establishes the socket connection.
